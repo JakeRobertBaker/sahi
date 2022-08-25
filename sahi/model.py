@@ -388,7 +388,7 @@ class Yolov5DetectionModel(DetectionModel):
 
         # set category_mapping
         if not self.category_mapping:
-            category_mapping = {str(ind): category_name for ind, category_name in enumerate(self.category_names)}
+            category_mapping = {str(ind): category_name for ind, category_name in enumerate(self.category_names.values())}
             self.category_mapping = category_mapping
 
     def perform_inference(self, image: np.ndarray):
