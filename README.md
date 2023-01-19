@@ -1,4 +1,7 @@
 <div align="center">
+
+Small changed to fix yolov5 model class
+
 <h1>
   SAHI: Slicing Aided Hyper Inference
 </h1>
